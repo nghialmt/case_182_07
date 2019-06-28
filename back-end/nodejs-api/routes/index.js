@@ -97,13 +97,13 @@ router.post('/forgot', function (req, res, next) {
                             var transporter = nodemailer.createTransport({
                                 service: 'gmail',
                                 auth: {
-                                    user: 'francenghia@gmail.com',
-                                    pass: 'Nghia0942872954'
+                                    user: '{}',//Email của người gửi
+                                    pass: '{}'//Password của người gửi
                                 }
                             });
 
                             var mailOptions = {
-                                from: 'francenghia@gmail.com',
+                                from: '{}',//Email của người gửi
                                 to: email,
                                 subject: 'RESET PASSWORD !',
                                 text: 'Bạn đang nhận được điều này bởi vì bạn (hoặc người khác) đã yêu cầu đặt lại mật khẩu cho tài khoản của bạn:\n'
