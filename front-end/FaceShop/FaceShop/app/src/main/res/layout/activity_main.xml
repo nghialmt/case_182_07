@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_gradient">
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:text="MẬT KHẨU"/>
+
+    <TextView
+        android:layout_below="@+id/txtPassword"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:text="Bạn quên mật khẩu hoặc bạn muốn thay đổi mật khẩu với email của bạn"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/name_text_input"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edtEmail"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_email_black_24dp"
+            android:hint="Email" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/name_text_input"
+        android:id="@+id/btnReset"
+        android:textSize="18sp"
+        android:background="@drawable/custom_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Đặt lại mật khẩu"/>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "287142179496",
+    "firebase_url": "https://faceshop-96202.firebaseio.com",
+    "project_id": "faceshop-96202",
+    "storage_bucket": "faceshop-96202.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287142179496:android:8ebe99333558dd6b",
+        "android_client_info": {
+          "package_name": "com.example.faceshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287142179496-mvv69u885qdg3pt76pststpk1so8s2n4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.faceshop",
+            "certificate_hash": "0f226f5ce62297bfc19316054ba256d043b496e3"
+          }
+        },
+        {
+          "client_id": "287142179496-l2vnenh90kbjn21l8lgu095jmk364m88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcFWC2tvFVjabwO9WIlZX_AklIVY6FUE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287142179496-l2vnenh90kbjn21l8lgu095jmk364m88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
