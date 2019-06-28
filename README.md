@@ -2,6 +2,7 @@
 
 CÀI ĐẶT DOCKER (Chạy Web server, DB server) + ỨNG DỤNG LÊN THIẾT BỊ DI ĐỘNG (Android)
 //====================================================
+
 TRONG THƯ MỤC DATABASE:
 
 
@@ -21,6 +22,7 @@ mysql -u root -p -h 192.168.99.101 -P 3306 -D faceshop
 
 
 //====================================================
+
 TRONG THƯ MỤC NODEJS-API:
 
 docker inspect test-faceshop-mysql | grep IPAddress
